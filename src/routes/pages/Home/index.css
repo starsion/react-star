@@ -1,0 +1,33 @@
+.home_container{
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* height: 100vh; */
+}
+.home_top{
+    /* padding: 24px; */
+    width: 100%;
+    margin-bottom: 24px;
+    /* background-color: #fff */
+}
+.home_content{
+    width: 100%;
+    display: flex;
+    /* background-color: #fff; */
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 24px;
+}
+.top_info{
+
+}
+.top_dataPanel{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    width: 100%;
+}

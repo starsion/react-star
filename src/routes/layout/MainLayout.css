@@ -1,0 +1,91 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    padding-right: 40px;
+    padding-left: 30px;
+    min-width: 200px;
+}
+
+.siderMenu{
+    overflow: auto;
+    height: 100vh;
+    /* position: fixed; */
+}
+
+.contentLayout{
+    overflow:scroll;
+    height: 100vh;
+}
+
+.trigger {
+    font-size: 20px;
+    line-height: 64px;
+    padding: 0 ;
+    cursor: pointer;
+}
+
+.trigger:hover {
+    color: #1890ff;
+}
+
+.logo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    color:rgb(70, 194, 70);
+}
+
+.logo span {
+    vertical-align: text-bottom;
+    font-size: 16px;
+    text-transform: uppercase;
+    display: inline-block;
+    font-weight: 700;
+    color: #fff;
+    white-space: nowrap;
+    animation: fadeLeftIn 600ms linear;
+    animation-fill-mode: both;
+}
+
+.header_right{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.header_right p{
+    margin: 0;
+    margin-right: 24px
+}
+
+.user_quit{
+    font-size: 18px;
+    cursor: pointer;
+    line-height: 64px;
+}
+
+.user_quit:hover{
+    color: #1890ff;
+}
+.user_icon{
+    margin-right: 20px;
+}
+
+
+/*Logo文字动画*/
+
+@keyframes fadeLeftIn {
+    0% {
+        transform: translateX(-10px);
+        opacity: 0;
+    }
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
